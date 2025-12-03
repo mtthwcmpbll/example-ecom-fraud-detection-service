@@ -1,0 +1,9 @@
+com/example/ecom/fraud/controller/FraudCheckController.class
+com/example/ecom/fraud/client/RiskScoreClient.class
+com/example/ecom/fraud/controller/FraudCheckController$FraudCheckRequest.class
+com/example/ecom/fraud/client/RiskScoreClient$RiskCheckRequest.class
+com/example/ecom/fraud/client/KycClient$KycRequest.class
+com/example/ecom/fraud/client/KycClient$KycResponse.class
+com/example/ecom/fraud/controller/FraudCheckController$FraudCheckResponse.class
+com/example/ecom/fraud/FraudDetectionServiceApplication.class
+com/example/ecom/fraud/client/KycClient.class

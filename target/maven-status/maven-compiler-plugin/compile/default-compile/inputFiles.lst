@@ -1,0 +1,4 @@
+/Users/matt/workspaces/model-spring-upgrade/fraud-detection-service/src/main/java/com/example/ecom/fraud/FraudDetectionServiceApplication.java
+/Users/matt/workspaces/model-spring-upgrade/fraud-detection-service/src/main/java/com/example/ecom/fraud/client/RiskScoreClient.java
+/Users/matt/workspaces/model-spring-upgrade/fraud-detection-service/src/main/java/com/example/ecom/fraud/client/KycClient.java
+/Users/matt/workspaces/model-spring-upgrade/fraud-detection-service/src/main/java/com/example/ecom/fraud/controller/FraudCheckController.java

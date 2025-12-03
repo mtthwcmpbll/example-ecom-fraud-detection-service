@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: fraud-detection-service
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://keycloak:8180/realms/ecom-realm/protocol/openid-connect/certs
+      client:
+        registration:
+          ecom-service:
+            provider: keycloak
+            client-id: ecom-service
+            client-secret: ecom-secret
+            authorization-grant-type: client_credentials
+        provider:
+          keycloak:
+            token-uri: http://keycloak:8180/realms/ecom-realm/protocol/openid-connect/token
+
+kyc-service:
+  url: ${KYC_SERVICE_URL}
+
+risk-score-service:
+  url: ${RISK_SCORE_SERVICE_URL}
